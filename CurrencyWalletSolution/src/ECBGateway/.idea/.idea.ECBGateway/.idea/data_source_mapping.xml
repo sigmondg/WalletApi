@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="das://42c59c37-d213-40eb-8a07-08396c5147ed/database/CurrencyWalletDb.sql" value="42c59c37-d213-40eb-8a07-08396c5147ed" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/42c59c37-d213-40eb-8a07-08396c5147ed/console.sql" value="42c59c37-d213-40eb-8a07-08396c5147ed" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/42c59c37-d213-40eb-8a07-08396c5147ed/console_1.sql" value="42c59c37-d213-40eb-8a07-08396c5147ed" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/42c59c37-d213-40eb-8a07-08396c5147ed/console_2.sql" value="42c59c37-d213-40eb-8a07-08396c5147ed" />
+  </component>
+</project>

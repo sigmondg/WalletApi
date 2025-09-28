@@ -1,0 +1,27 @@
+@WalletApi_HostAddress = http://localhost:5042
+
+### Create a new wallet
+POST {{WalletApi_HostAddress}}/wallet/create
+Content-Type: application/json
+
+{
+  "initialBalance": 100.00,
+  "currency": "EUR"
+}
+
+### Get wallet balance
+GET {{WalletApi_HostAddress}}/wallet/balance/{id}
+Accept: application/json
+
+### Add money to wallet
+POST {{WalletApi_HostAddress}}/wallet/add
+Content-Type: application/json
+
+{
+  "walletId": "wallet-id",
+  "amount": 50.00,
+  "currency": "EUR",
+  "strategy": "add"
+}
+
+###
