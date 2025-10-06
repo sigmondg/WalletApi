@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Shared;
 using Shared.Options;
+using WalletApi.Services.Kafka;
 using WalletApi.Services.Wallet;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -30,6 +31,8 @@ builder.Services.AddSingleton<IRateLimitConfiguration, RateLimitConfiguration>()
 builder.Services.AddCachedCurrencyService();
 builder.Services.AddWalletService();
 builder.Services.AddJobs();
+builder.Services.AddSingleton<KafkaProducerService>();
+builder.Services.AddHostedService<KafkaConsumerService>();
 builder.Services.AddGatewayService();
 
 var configurator = new QuartzSchedulerConfigurator();

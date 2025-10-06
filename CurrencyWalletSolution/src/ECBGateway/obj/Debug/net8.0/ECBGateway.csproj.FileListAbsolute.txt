@@ -22,3 +22,16 @@ C:\Users\SigmondGatt\RiderProjects\CurrencyWalletSolution\src\ECBGateway\obj\Deb
 C:\Users\SigmondGatt\RiderProjects\CurrencyWalletSolution\src\ECBGateway\obj\Debug\net8.0\refint\ECBGateway.dll
 C:\Users\SigmondGatt\RiderProjects\CurrencyWalletSolution\src\ECBGateway\obj\Debug\net8.0\ECBGateway.pdb
 C:\Users\SigmondGatt\RiderProjects\CurrencyWalletSolution\src\ECBGateway\obj\Debug\net8.0\ref\ECBGateway.dll
+C:\Users\SigmondGatt\OneDrive - River Tech\Documents\GitHub\WalletApi\CurrencyWalletSolution\src\ECBGateway\bin\Debug\net8.0\ECBGateway.deps.json
+C:\Users\SigmondGatt\OneDrive - River Tech\Documents\GitHub\WalletApi\CurrencyWalletSolution\src\ECBGateway\bin\Debug\net8.0\ECBGateway.dll
+C:\Users\SigmondGatt\OneDrive - River Tech\Documents\GitHub\WalletApi\CurrencyWalletSolution\src\ECBGateway\bin\Debug\net8.0\ECBGateway.pdb
+C:\Users\SigmondGatt\OneDrive - River Tech\Documents\GitHub\WalletApi\CurrencyWalletSolution\src\ECBGateway\obj\Debug\net8.0\ECBGateway.csproj.AssemblyReference.cache
+C:\Users\SigmondGatt\OneDrive - River Tech\Documents\GitHub\WalletApi\CurrencyWalletSolution\src\ECBGateway\obj\Debug\net8.0\ECBGateway.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SigmondGatt\OneDrive - River Tech\Documents\GitHub\WalletApi\CurrencyWalletSolution\src\ECBGateway\obj\Debug\net8.0\ECBGateway.AssemblyInfoInputs.cache
+C:\Users\SigmondGatt\OneDrive - River Tech\Documents\GitHub\WalletApi\CurrencyWalletSolution\src\ECBGateway\obj\Debug\net8.0\ECBGateway.AssemblyInfo.cs
+C:\Users\SigmondGatt\OneDrive - River Tech\Documents\GitHub\WalletApi\CurrencyWalletSolution\src\ECBGateway\obj\Debug\net8.0\ECBGateway.csproj.CoreCompileInputs.cache
+C:\Users\SigmondGatt\OneDrive - River Tech\Documents\GitHub\WalletApi\CurrencyWalletSolution\src\ECBGateway\obj\Debug\net8.0\ECBGateway.sourcelink.json
+C:\Users\SigmondGatt\OneDrive - River Tech\Documents\GitHub\WalletApi\CurrencyWalletSolution\src\ECBGateway\obj\Debug\net8.0\ECBGateway.dll
+C:\Users\SigmondGatt\OneDrive - River Tech\Documents\GitHub\WalletApi\CurrencyWalletSolution\src\ECBGateway\obj\Debug\net8.0\refint\ECBGateway.dll
+C:\Users\SigmondGatt\OneDrive - River Tech\Documents\GitHub\WalletApi\CurrencyWalletSolution\src\ECBGateway\obj\Debug\net8.0\ECBGateway.pdb
+C:\Users\SigmondGatt\OneDrive - River Tech\Documents\GitHub\WalletApi\CurrencyWalletSolution\src\ECBGateway\obj\Debug\net8.0\ref\ECBGateway.dll

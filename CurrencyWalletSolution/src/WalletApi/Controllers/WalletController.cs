@@ -4,6 +4,7 @@ using CurrencyUpdater.Data.EntityModels;
 using CurrencyUpdater.Services;
 using Microsoft.AspNetCore.Mvc;
 using WalletApi.Models;
+using WalletApi.Services.Kafka;
 using WalletApi.Services.Wallet;
 
 namespace WalletApi.Controllers;
@@ -15,17 +16,20 @@ public class WalletController : ControllerBase
     private readonly CurrencyWalletDbContext _db;
     private readonly ICurrencyService _currencyService;
     private readonly IBalanceStrategyFactory _balanceStrategyFactory;
+    private readonly KafkaProducerService _kafkaProducerService;
     private static readonly ConcurrentDictionary<Guid, SemaphoreSlim> _walletSemaphores = new();
 
 
     public WalletController(
         CurrencyWalletDbContext db,
         ICurrencyService currencyService,
-        IBalanceStrategyFactory balanceStrategyFactory)
+        IBalanceStrategyFactory balanceStrategyFactory,
+        KafkaProducerService kafkaProducerService)
     {
         _db = db;
         _currencyService = currencyService;
         _balanceStrategyFactory = balanceStrategyFactory;
+        _kafkaProducerService = kafkaProducerService;
     }
 
     [HttpPost]
@@ -114,6 +118,15 @@ public class WalletController : ControllerBase
             {
                 var strategyInstance = _balanceStrategyFactory.GetStrategy(strategy);
                 wallet.Balance = strategyInstance.AdjustBalance(wallet, adjustedAmount);
+                
+                
+                await _kafkaProducerService.PublishAsync(wallet.Id.ToString(), new
+                {
+                    EventType = "BalanceAdjusted",
+                    WalletId = wallet.Id,
+                    Amount = amount,
+                    NewBalance = wallet.Balance
+                });
             }
             catch (ArgumentException ex)
             {

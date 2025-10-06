@@ -1,109 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\Shared\\Shared.csproj": {}
+    "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\src\\Shared\\Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\CurrencyUpdater\\CurrencyUpdater.csproj": {
+    "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\src\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\CurrencyUpdater\\CurrencyUpdater.csproj",
-        "projectName": "CurrencyUpdater",
-        "projectPath": "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\CurrencyUpdater\\CurrencyUpdater.csproj",
+        "projectUniqueName": "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\src\\Shared\\Shared.csproj",
+        "projectName": "Shared",
+        "projectPath": "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\src\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\SigmondGatt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\CurrencyUpdater\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\SigmondGatt\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\ECBGateway\\ECBGateway.csproj": {
-                "projectPath": "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\ECBGateway\\ECBGateway.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[9.0.9, )"
-            },
-            "Microsoft.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[9.0.9, )"
-            },
-            "Microsoft.Extensions.Hosting": {
-              "target": "Package",
-              "version": "[8.0.1, )"
-            },
-            "Quartz": {
-              "target": "Package",
-              "version": "[3.15.0, )"
-            },
-            "Quartz.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[3.15.0, )"
-            },
-            "Quartz.Extensions.Hosting": {
-              "target": "Package",
-              "version": "[3.15.0, )"
-            },
-            "Scrutor": {
-              "target": "Package",
-              "version": "[6.1.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\ECBGateway\\ECBGateway.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\ECBGateway\\ECBGateway.csproj",
-        "projectName": "ECBGateway",
-        "projectPath": "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\ECBGateway\\ECBGateway.csproj",
-        "packagesPath": "C:\\Users\\SigmondGatt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\ECBGateway\\obj\\",
+        "outputPath": "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\src\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SigmondGatt\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -135,81 +43,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[9.0.9, )"
-            },
-            "System.Xml.XmlSerializer": {
-              "target": "Package",
-              "version": "[4.3.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\Shared\\Shared.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\Shared\\Shared.csproj",
-        "projectName": "Shared",
-        "projectPath": "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\Shared\\Shared.csproj",
-        "packagesPath": "C:\\Users\\SigmondGatt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\Shared\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\SigmondGatt\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\CurrencyUpdater\\CurrencyUpdater.csproj": {
-                "projectPath": "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\CurrencyUpdater\\CurrencyUpdater.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "dependencies": {
             "Microsoft.Extensions.Options": {
               "target": "Package",
-              "version": "[10.0.0-rc.1.25451.107, )"
+              "version": "[9.0.9, )"
             },
             "Microsoft.Extensions.Options.ConfigurationExtensions": {
               "target": "Package",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z/ZlWqcSfq0=",
+  "dgSpecHash": "V1A4p2sEX38=",
   "success": true,
-  "projectFilePath": "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\tests\\CurrencyUpdater.Tests\\CurrencyUpdater.Tests.csproj",
+  "projectFilePath": "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\tests\\CurrencyUpdater.Tests\\CurrencyUpdater.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SigmondGatt\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\SigmondGatt\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
@@ -23,7 +23,7 @@
     "C:\\Users\\SigmondGatt\\.nuget\\packages\\microsoft.extensions.caching.memory\\9.0.9\\microsoft.extensions.caching.memory.9.0.9.nupkg.sha512",
     "C:\\Users\\SigmondGatt\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\SigmondGatt\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.9\\microsoft.extensions.configuration.abstractions.9.0.9.nupkg.sha512",
-    "C:\\Users\\SigmondGatt\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.2\\microsoft.extensions.configuration.binder.8.0.2.nupkg.sha512",
+    "C:\\Users\\SigmondGatt\\.nuget\\packages\\microsoft.extensions.configuration.binder\\9.0.9\\microsoft.extensions.configuration.binder.9.0.9.nupkg.sha512",
     "C:\\Users\\SigmondGatt\\.nuget\\packages\\microsoft.extensions.configuration.commandline\\8.0.0\\microsoft.extensions.configuration.commandline.8.0.0.nupkg.sha512",
     "C:\\Users\\SigmondGatt\\.nuget\\packages\\microsoft.extensions.configuration.environmentvariables\\8.0.0\\microsoft.extensions.configuration.environmentvariables.8.0.0.nupkg.sha512",
     "C:\\Users\\SigmondGatt\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\8.0.1\\microsoft.extensions.configuration.fileextensions.8.0.1.nupkg.sha512",
@@ -47,7 +47,7 @@
     "C:\\Users\\SigmondGatt\\.nuget\\packages\\microsoft.extensions.logging.eventlog\\8.0.1\\microsoft.extensions.logging.eventlog.8.0.1.nupkg.sha512",
     "C:\\Users\\SigmondGatt\\.nuget\\packages\\microsoft.extensions.logging.eventsource\\8.0.1\\microsoft.extensions.logging.eventsource.8.0.1.nupkg.sha512",
     "C:\\Users\\SigmondGatt\\.nuget\\packages\\microsoft.extensions.options\\9.0.9\\microsoft.extensions.options.9.0.9.nupkg.sha512",
-    "C:\\Users\\SigmondGatt\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\8.0.0\\microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512",
+    "C:\\Users\\SigmondGatt\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\9.0.9\\microsoft.extensions.options.configurationextensions.9.0.9.nupkg.sha512",
     "C:\\Users\\SigmondGatt\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.9\\microsoft.extensions.primitives.9.0.9.nupkg.sha512",
     "C:\\Users\\SigmondGatt\\.nuget\\packages\\microsoft.identity.client\\4.61.3\\microsoft.identity.client.4.61.3.nupkg.sha512",
     "C:\\Users\\SigmondGatt\\.nuget\\packages\\microsoft.identity.client.extensions.msal\\4.61.3\\microsoft.identity.client.extensions.msal.4.61.3.nupkg.sha512",

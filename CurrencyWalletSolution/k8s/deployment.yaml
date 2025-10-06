@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: wallet-api
+  labels:
+    app: wallet-api
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: wallet-api
+  template:
+    metadata:
+      labels:
+        app: wallet-api
+    spec:
+      initContainers:
+        - name: wait-for-mssql
+          image: busybox:1.28
+          command: [ 'sh', '-c', 'until nc -z mssql-service 1433; do echo waiting for mssql; sleep 2; done;' ]
+      containers:
+        - name: wallet-api
+          image: wallet-api:v1
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 8080
+          env:
+            - name: ASPNETCORE_ENVIRONMENT
+              valueFrom:
+                configMapKeyRef:
+                  name: wallet-api-config
+                  key: ASPNETCORE_ENVIRONMENT
+            - name: ConnectionString
+              valueFrom:
+                configMapKeyRef:
+                  name: wallet-api-config
+                  key: ConnectionString
+            - name: ConnectionStrings__CurrencyWalletDb
+              valueFrom:
+                configMapKeyRef:
+                  name: wallet-api-config
+                  key: ConnectionString

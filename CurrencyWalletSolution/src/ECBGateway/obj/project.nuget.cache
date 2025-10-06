@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "twfBZzZcmh8=",
+  "dgSpecHash": "qoaOngWlTR8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\ECBGateway\\ECBGateway.csproj",
+  "projectFilePath": "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\src\\ECBGateway\\ECBGateway.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SigmondGatt\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.9\\microsoft.entityframeworkcore.9.0.9.nupkg.sha512",
     "C:\\Users\\SigmondGatt\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.9\\microsoft.entityframeworkcore.abstractions.9.0.9.nupkg.sha512",

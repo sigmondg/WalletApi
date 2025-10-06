@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CurrencyUpdater
-build_property.ProjectDir = C:\Users\SigmondGatt\RiderProjects\CurrencyWalletSolution\src\CurrencyUpdater\
+build_property.ProjectDir = C:\Users\SigmondGatt\OneDrive - River Tech\Documents\GitHub\WalletApi\CurrencyWalletSolution\src\CurrencyUpdater\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

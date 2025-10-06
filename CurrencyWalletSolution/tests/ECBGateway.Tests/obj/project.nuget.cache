@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Kn9ypbRUwHs=",
+  "dgSpecHash": "2VgYZQQfQ6k=",
   "success": true,
-  "projectFilePath": "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\tests\\ECBGateway.Tests\\ECBGateway.Tests.csproj",
+  "projectFilePath": "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\tests\\ECBGateway.Tests\\ECBGateway.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SigmondGatt\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\SigmondGatt\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",

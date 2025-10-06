@@ -3876,11 +3876,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\tests\\ECBGateway.Tests\\ECBGateway.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\tests\\ECBGateway.Tests\\ECBGateway.Tests.csproj",
       "projectName": "ECBGateway.Tests",
-      "projectPath": "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\tests\\ECBGateway.Tests\\ECBGateway.Tests.csproj",
+      "projectPath": "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\tests\\ECBGateway.Tests\\ECBGateway.Tests.csproj",
       "packagesPath": "C:\\Users\\SigmondGatt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\tests\\ECBGateway.Tests\\obj\\",
+      "outputPath": "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\tests\\ECBGateway.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SigmondGatt\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -3895,8 +3895,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\ECBGateway\\ECBGateway.csproj": {
-              "projectPath": "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\ECBGateway\\ECBGateway.csproj"
+            "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\src\\ECBGateway\\ECBGateway.csproj": {
+              "projectPath": "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\src\\ECBGateway\\ECBGateway.csproj"
             }
           }
         }

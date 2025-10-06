@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using Moq;
 using WalletApi.Controllers;
 using WalletApi.Models;
+using WalletApi.Services.Kafka;
 using WalletApi.Services.Wallet;
 
 namespace WalletApi.Tests.Integration;
@@ -14,6 +15,7 @@ public class WalletIntegrationTests
 { 
     private readonly Mock<ICurrencyService> _currencyServiceMock = new();
     private readonly Mock<BalanceStrategyFactory> _strategyFactoryMock = new();
+    private readonly Mock<KafkaProducerService>  _producerServiceMock = new();
     
     private CurrencyWalletDbContext CreateInMemoryDbContext()
     {
@@ -28,7 +30,7 @@ public class WalletIntegrationTests
     public async Task CreateWallet_AdjustBalance_GetBalance_FullWorkflow()
     {
         await using var context = CreateInMemoryDbContext();
-        var controller = new WalletController(context, _currencyServiceMock.Object, _strategyFactoryMock.Object);
+        var controller = new WalletController(context, _currencyServiceMock.Object, _strategyFactoryMock.Object, _producerServiceMock.Object);
         
         _currencyServiceMock.Setup(s => s.GetCurrencyIdByCodeAsync("USD")).ReturnsAsync(1);
         _currencyServiceMock.Setup(s => s.GetCurrencyCodeByIdAsync(1)).ReturnsAsync("USD");
@@ -73,7 +75,7 @@ public class WalletIntegrationTests
         _currencyServiceMock.Setup(s => s.GetCurrencyIdByCodeAsync("EUR")).ReturnsAsync(2);
         _currencyServiceMock.Setup(s => s.ConvertAmountAsync(100, 1, 2)).ReturnsAsync(85m);
 
-        var controller = new WalletController(context, _currencyServiceMock.Object, _strategyFactoryMock.Object);
+        var controller = new WalletController(context, _currencyServiceMock.Object, _strategyFactoryMock.Object, _producerServiceMock.Object);
 
         var result = await controller.GetBalance(wallet.Id, "EUR");
         var balance = Assert.IsType<OkObjectResult>(result);
