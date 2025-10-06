@@ -15,6 +15,9 @@ public static class ServiceCollectionExtensions
 
         services.Configure<IpRateLimitingOptions>(configuration.GetSection(IpRateLimitingOptions.SectionName))
             .AddSingleton<IValidateOptions<IpRateLimitingOptions>, IpRateLimitingValidator>();
+        
+        services.Configure<KafkaOptions>(configuration.GetSection(KafkaOptions.SectionName))
+            .AddSingleton<IValidateOptions<IpRateLimitingOptions>, IpRateLimitingValidator>();
 
         return services;
     }

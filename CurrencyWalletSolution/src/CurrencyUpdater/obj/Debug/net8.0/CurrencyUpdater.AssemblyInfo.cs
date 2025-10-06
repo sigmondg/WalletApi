@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CurrencyUpdater")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba89e96c194bc2eff8687885d00ca365984923a4")]
 [assembly: System.Reflection.AssemblyProductAttribute("CurrencyUpdater")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CurrencyUpdater")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using Moq;
 using WalletApi.Controllers;
 using WalletApi.Models;
+using WalletApi.Services.Kafka;
 using WalletApi.Services.Wallet;
 
 namespace WalletApi.Tests.Controller;
@@ -13,6 +14,7 @@ namespace WalletApi.Tests.Controller;
 public class WalletControllerTests
 {
     private readonly Mock<ICurrencyService> _currencyServiceMock = new();
+    private readonly Mock<KafkaProducerService> _kafkaProducerServiceMock = new();
     private readonly Mock<BalanceStrategyFactory> _strategyFactoryMock = new();
 
     private CurrencyWalletDbContext CreateInMemoryDbContext()
@@ -28,7 +30,7 @@ public class WalletControllerTests
     {
         await using var context = CreateInMemoryDbContext();
 
-        var controller = new WalletController(context, _currencyServiceMock.Object, _strategyFactoryMock.Object);
+        var controller = new WalletController(context, _currencyServiceMock.Object, _strategyFactoryMock.Object, _kafkaProducerServiceMock.Object);
 
         var walletId = Guid.NewGuid();
         var result = await controller.AdjustBalance(walletId, 10, "USD", "add");
@@ -40,7 +42,7 @@ public class WalletControllerTests
     public async Task CreateWallet_Valid_ReturnsOkAndWalletId()
     {
         await using var context = CreateInMemoryDbContext();
-        var controller = new WalletController(context, _currencyServiceMock.Object, _strategyFactoryMock.Object);
+        var controller = new WalletController(context, _currencyServiceMock.Object, _strategyFactoryMock.Object, _kafkaProducerServiceMock.Object);
 
         _currencyServiceMock
             .Setup(s => s.GetCurrencyIdByCodeAsync("USD"))
@@ -64,7 +66,7 @@ public class WalletControllerTests
     public async Task RetrieveWalletBalance_WalletNotFound_ReturnsNotFound()
     {
         await using var context = CreateInMemoryDbContext();
-        var controller = new WalletController(context, _currencyServiceMock.Object, _strategyFactoryMock.Object);
+        var controller = new WalletController(context, _currencyServiceMock.Object, _strategyFactoryMock.Object, _kafkaProducerServiceMock.Object);
 
         var walletId = Guid.NewGuid();
         var result = await controller.GetBalance(walletId, "USD");
@@ -85,7 +87,7 @@ public class WalletControllerTests
         _currencyServiceMock.Setup(s => s.ConvertAmountAsync(100, 1, 22))
             .ReturnsAsync(90m);
 
-        var controller = new WalletController(context, _currencyServiceMock.Object, _strategyFactoryMock.Object);
+        var controller = new WalletController(context, _currencyServiceMock.Object, _strategyFactoryMock.Object, _kafkaProducerServiceMock.Object);
 
         var result = await controller.GetBalance(wallet.Id, "INR");
 
@@ -102,7 +104,7 @@ public class WalletControllerTests
         context.Wallets.Add(wallet);
         await context.SaveChangesAsync();
 
-        var controller = new WalletController(context, _currencyServiceMock.Object, _strategyFactoryMock.Object);
+        var controller = new WalletController(context, _currencyServiceMock.Object, _strategyFactoryMock.Object, _kafkaProducerServiceMock.Object);
 
         _currencyServiceMock.Setup(s => s.GetCurrencyIdByCodeAsync("XXX")).ReturnsAsync((int?)null);
         _currencyServiceMock.Setup(s => s.GetCurrencyCodesAsync()).ReturnsAsync(new List<string> { "USD", "EUR" });
@@ -127,7 +129,7 @@ public class WalletControllerTests
         _strategyFactoryMock.Setup(f => f.GetStrategy("add")).Returns(strategyMock.Object);
         _currencyServiceMock.Setup(s => s.GetCurrencyIdByCodeAsync("USD")).ReturnsAsync(1);
 
-        var controller = new WalletController(context, _currencyServiceMock.Object, _strategyFactoryMock.Object);
+        var controller = new WalletController(context, _currencyServiceMock.Object, _strategyFactoryMock.Object, _kafkaProducerServiceMock.Object);
 
         var result = await controller.AdjustBalance(wallet.Id, 50, "USD", "add");
 

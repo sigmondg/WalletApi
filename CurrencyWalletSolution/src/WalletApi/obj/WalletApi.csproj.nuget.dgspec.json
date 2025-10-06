@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\WalletApi\\WalletApi.csproj": {}
+    "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\src\\WalletApi\\WalletApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\CurrencyUpdater\\CurrencyUpdater.csproj": {
+    "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\src\\CurrencyUpdater\\CurrencyUpdater.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\CurrencyUpdater\\CurrencyUpdater.csproj",
+        "projectUniqueName": "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\src\\CurrencyUpdater\\CurrencyUpdater.csproj",
         "projectName": "CurrencyUpdater",
-        "projectPath": "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\CurrencyUpdater\\CurrencyUpdater.csproj",
+        "projectPath": "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\src\\CurrencyUpdater\\CurrencyUpdater.csproj",
         "packagesPath": "C:\\Users\\SigmondGatt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\CurrencyUpdater\\obj\\",
+        "outputPath": "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\src\\CurrencyUpdater\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SigmondGatt\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\ECBGateway\\ECBGateway.csproj": {
-                "projectPath": "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\ECBGateway\\ECBGateway.csproj"
+              "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\src\\ECBGateway\\ECBGateway.csproj": {
+                "projectPath": "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\src\\ECBGateway\\ECBGateway.csproj"
+              },
+              "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\src\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\src\\Shared\\Shared.csproj"
               }
             }
           }
@@ -96,14 +99,14 @@
         }
       }
     },
-    "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\ECBGateway\\ECBGateway.csproj": {
+    "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\src\\ECBGateway\\ECBGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\ECBGateway\\ECBGateway.csproj",
+        "projectUniqueName": "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\src\\ECBGateway\\ECBGateway.csproj",
         "projectName": "ECBGateway",
-        "projectPath": "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\ECBGateway\\ECBGateway.csproj",
+        "projectPath": "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\src\\ECBGateway\\ECBGateway.csproj",
         "packagesPath": "C:\\Users\\SigmondGatt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\ECBGateway\\obj\\",
+        "outputPath": "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\src\\ECBGateway\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SigmondGatt\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -164,14 +167,14 @@
         }
       }
     },
-    "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\Shared\\Shared.csproj": {
+    "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\src\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\src\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\Shared\\Shared.csproj",
+        "projectPath": "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\src\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\SigmondGatt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\src\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SigmondGatt\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -185,11 +188,7 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\CurrencyUpdater\\CurrencyUpdater.csproj": {
-                "projectPath": "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\CurrencyUpdater\\CurrencyUpdater.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -209,7 +208,7 @@
           "dependencies": {
             "Microsoft.Extensions.Options": {
               "target": "Package",
-              "version": "[10.0.0-rc.1.25451.107, )"
+              "version": "[9.0.9, )"
             },
             "Microsoft.Extensions.Options.ConfigurationExtensions": {
               "target": "Package",
@@ -236,14 +235,14 @@
         }
       }
     },
-    "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\WalletApi\\WalletApi.csproj": {
+    "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\src\\WalletApi\\WalletApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\WalletApi\\WalletApi.csproj",
+        "projectUniqueName": "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\src\\WalletApi\\WalletApi.csproj",
         "projectName": "WalletApi",
-        "projectPath": "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\WalletApi\\WalletApi.csproj",
+        "projectPath": "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\src\\WalletApi\\WalletApi.csproj",
         "packagesPath": "C:\\Users\\SigmondGatt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\WalletApi\\obj\\",
+        "outputPath": "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\src\\WalletApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SigmondGatt\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -258,11 +257,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\CurrencyUpdater\\CurrencyUpdater.csproj": {
-                "projectPath": "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\CurrencyUpdater\\CurrencyUpdater.csproj"
+              "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\src\\CurrencyUpdater\\CurrencyUpdater.csproj": {
+                "projectPath": "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\src\\CurrencyUpdater\\CurrencyUpdater.csproj"
               },
-              "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\Shared\\Shared.csproj": {
-                "projectPath": "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\Shared\\Shared.csproj"
+              "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\src\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\src\\Shared\\Shared.csproj"
               }
             }
           }
@@ -285,6 +284,10 @@
             "AspNetCoreRateLimit": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[2.11.1, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",

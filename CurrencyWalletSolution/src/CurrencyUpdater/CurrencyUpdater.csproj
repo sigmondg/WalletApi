@@ -19,5 +19,6 @@
 
     <ItemGroup>
         <ProjectReference Include="..\ECBGateway\ECBGateway.csproj"/>
+        <ProjectReference Include="..\Shared\Shared.csproj" />
     </ItemGroup>
 </Project>

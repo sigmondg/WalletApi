@@ -2747,11 +2747,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\ECBGateway\\ECBGateway.csproj",
+      "projectUniqueName": "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\src\\ECBGateway\\ECBGateway.csproj",
       "projectName": "ECBGateway",
-      "projectPath": "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\ECBGateway\\ECBGateway.csproj",
+      "projectPath": "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\src\\ECBGateway\\ECBGateway.csproj",
       "packagesPath": "C:\\Users\\SigmondGatt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SigmondGatt\\RiderProjects\\CurrencyWalletSolution\\src\\ECBGateway\\obj\\",
+      "outputPath": "C:\\Users\\SigmondGatt\\OneDrive - River Tech\\Documents\\GitHub\\WalletApi\\CurrencyWalletSolution\\src\\ECBGateway\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SigmondGatt\\AppData\\Roaming\\NuGet\\NuGet.Config"
